@@ -1,0 +1,8 @@
+a:link		{text-decoration: none; color:#000000;}
+a:visited	{text-decoration: none; color:#000000;}
+a:active	{text-decoration: none; color:#000000;}
+a:hover		{text-decoration: none; color:#000000;}
+.td_menu	{font-family:tahoma; font-size:11px; color:#000000;}
+.form1		{font-family:tahoma; font-size: 8pt; color:#ffffff; background:#99B2D1; border-width:1px; border-color:<%=tablo_cerceve%>;}
+.submit		{font-family:TAHOMA; font-size: 9pt; color:#ffffff; background:#99B2D1; border-width:1px; border-color:<%=tablo_cerceve%>; font-weight:bold;}
+.copy		{font-family:tahoma; font-size: 9px; color:#003300;}

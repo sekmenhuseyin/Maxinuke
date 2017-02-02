@@ -1,0 +1,1 @@
+<input type="button" value="KAPAT" onclick="javascript:parent.window.focus();top.window.close()" class="submit">

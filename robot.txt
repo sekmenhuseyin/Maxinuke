@@ -1,0 +1,12 @@
+#ALL BOTS
+User-agent: *
+Disallow: /admin.asp
+Disallow: /anket_a.asp
+Disallow: /articles_a.asp
+Disallow: /ftp.asp
+Disallow: /mdbcompact.asp
+Disallow: /mdbedit.asp
+Disallow: /news_a.asp
+Disallow: /sql_exec.asp
+Disallow: /uye_islem_a.asp
+Disallow: /kur.asp

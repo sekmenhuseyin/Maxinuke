@@ -1,0 +1,85 @@
+#wmp {
+	position:absolute;
+	left:-1000px;
+	top:-1000px;
+}
+
+#volumeSlider {
+	display:none;
+}
+
+body,td,th,marquee {
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #FFFFFF;
+	cursor:default;
+}
+
+body {
+	background-color: buttonface;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	cursor:default;
+}
+
+img {
+	border:0px;
+}
+
+.hand {
+	cursor:hand;
+}
+
+.shadow {
+	width:100%;
+	filter:progid:DXImageTransform.Microsoft.dropShadow(Color=761B2A,offX=1,offY=1,positive=true);
+}
+
+.bold { font-weight: bold; }
+.padd_t2 { padding-top: 2px; }
+.padd_t3 { padding-top: 3px; }
+.padd_r3 { padding-right: 3px; } 
+.padd_l3 { padding-left: 3px; }
+
+#playlist {
+	width:100%;
+	height:expression(document.body.scrollHeight - pl_header.height - pl_footer.height);
+	overflow:scroll;
+	overflow-x:hidden;
+	background-color:#FFFFFF;
+}
+
+#playlist td {
+	color:#761B2A;
+	border-bottom:solid 1px #F0F0F1;
+	height:25px;
+}
+
+#playlist #no {
+	font-weight:bold;
+	width:30px;
+	padding-right:5px;
+}
+
+#playlist #button {
+	width:100px;
+	padding-right:10px;
+}
+
+#playlist a:link {
+	color: #761B2A;
+	text-decoration: none;
+}
+#playlist a:visited {
+	text-decoration: none;
+	color: #761B2A;
+}
+#playlist a:hover {
+	text-decoration: none;
+	color: #761B2A;
+}
+#playlist a:active {
+	text-decoration: none;
+	color: #761B2A;
+}
